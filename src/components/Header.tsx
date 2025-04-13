@@ -42,37 +42,37 @@ const Header = () => {
               </div>
               
               <nav className="hidden md:flex items-center space-x-6">
-  <span className="text-white hover:text-news-orange transition-colors duration-200 cursor-pointer flex flex-col items-center">
-    <Heart size={20} />
-    <span className="text-xs mt-1">Love</span>
-  </span>
-  <span className="text-white hover:text-news-orange transition-colors duration-200 cursor-pointer flex flex-col items-center">
-    <Leaf size={20} />
-    <span className="text-xs mt-1">Nature</span>
-  </span>
-  <span className="text-white hover:text-news-orange transition-colors duration-200 cursor-pointer flex flex-col items-center">
-    <Sun size={20} />
-    <span className="text-xs mt-1">Light</span>
-  </span>
-  <span className="text-white hover:text-news-orange transition-colors duration-200 cursor-pointer flex flex-col items-center">
-    <Coffee size={20} />
-    <span className="text-xs mt-1">Moments</span>
-  </span>
-  {session && isAdmin && (
-    <Link to="/dashboard" className="font-medium text-news-orange hover:text-white transition-colors duration-200">
-      DASHBOARD
-    </Link>
-  )}
-  {!session ? (
-    <Link to="/login" className="font-medium text-white hover:text-news-orange transition-colors duration-200">
-      LOGIN
-    </Link>
-  ) : (
-    <Link to="/login" className="font-medium text-white hover:text-news-orange transition-colors duration-200">
-      MY ACCOUNT
-    </Link>
-  )}
-</nav>
+                <span className="text-white hover:text-news-orange transition-colors duration-200 cursor-pointer flex flex-col items-center">
+                  <Heart size={20} />
+                  <span className="text-xs mt-1">Love</span>
+                </span>
+                <span className="text-white hover:text-news-orange transition-colors duration-200 cursor-pointer flex flex-col items-center">
+                  <Leaf size={20} />
+                  <span className="text-xs mt-1">Nature</span>
+                </span>
+                <span className="text-white hover:text-news-orange transition-colors duration-200 cursor-pointer flex flex-col items-center">
+                  <Sun size={20} />
+                  <span className="text-xs mt-1">Light</span>
+                </span>
+                <span className="text-white hover:text-news-orange transition-colors duration-200 cursor-pointer flex flex-col items-center">
+                  <Coffee size={20} />
+                  <span className="text-xs mt-1">Moments</span>
+                </span>
+                {session && isAdmin && (
+                  <Link to="/dashboard" className="font-medium text-news-orange hover:text-white transition-colors duration-200">
+                    DASHBOARD
+                  </Link>
+                )}
+                {!session ? (
+                  <Link to="/login" className="font-medium text-white hover:text-news-orange transition-colors duration-200">
+                    LOGIN
+                  </Link>
+                ) : (
+                  <Link to="/login" className="font-medium text-white hover:text-news-orange transition-colors duration-200">
+                    MY ACCOUNT
+                  </Link>
+                )}
+              </nav>
               
               <Button 
                 variant="ghost" 
@@ -92,11 +92,23 @@ const Header = () => {
         <div className="bg-news-dark text-white md:hidden py-4">
           <div className="px-4 md:px-8">
             <div className="max-w-7xl mx-auto">
-              <nav className="flex flex-col space-y-4">
-                <NavLink href="/">NEWS</NavLink>
-                <NavLink href="/">WATCH</NavLink>
-                <NavLink href="/">LISTEN</NavLink>
-                <NavLink href="/">LIVE TV</NavLink>
+              <nav className="flex flex-col space-y-6">
+                <div className="flex items-center space-x-3">
+                  <Heart size={20} />
+                  <span className="font-medium">Love</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <Leaf size={20} />
+                  <span className="font-medium">Nature</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <Sun size={20} />
+                  <span className="font-medium">Light</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <Coffee size={20} />
+                  <span className="font-medium">Moments</span>
+                </div>
                 {session && isAdmin && (
                   <Link to="/dashboard" className="font-medium text-news-orange hover:text-white transition-colors duration-200">
                     DASHBOARD
