@@ -1,0 +1,8 @@
+Please create a 1200x630 PNG image with the following specifications:
+
+1. Background: Dark gradient from #FF6B6B to #4ECDC4
+2. Text: "LOVE&PEXELS" in white, bold, Inter font, size 72px
+3. Subtitle: "Breaking News & Media" in white, Inter font, size 32px
+4. Save as: og-image.png
+
+You can use any image editing software like Photoshop, GIMP, or online tools like Canva to create this image. 

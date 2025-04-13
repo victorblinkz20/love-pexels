@@ -1,0 +1,12 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/AllBlogs": "pages/AllBlogs.js",
+  "/BlogDetail": "pages/BlogDetail.js",
+  "/CategoryPage": "pages/CategoryPage.js",
+  "/Dashboard": "pages/Dashboard.js",
+  "/Index": "pages/Index.js",
+  "/Login": "pages/Login.js",
+  "/NotFound": "pages/NotFound.js",
+  "/_document": "pages/_document.js"
+}

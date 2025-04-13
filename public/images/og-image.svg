@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#1A1A1A"/>
+  
+  <!-- Gradient overlay -->
+  <rect width="1200" height="630" fill="url(#gradient)"/>
+  
+  <!-- Logo text -->
+  <text x="600" y="315" font-family="Inter, sans-serif" font-size="72" font-weight="bold" fill="white" text-anchor="middle">
+    LOVE&amp;PEXELS
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="395" font-family="Inter, sans-serif" font-size="32" fill="white" text-anchor="middle">
+    Breaking News &amp; Media
+  </text>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF6B6B"/>
+      <stop offset="100%" stop-color="#4ECDC4"/>
+    </linearGradient>
+  </defs>
+</svg> 

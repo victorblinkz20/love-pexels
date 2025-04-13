@@ -1,0 +1,22 @@
+[build]
+  command = "npm install && npm run build"
+  output_directory = "dist"
+  base_directory = "/"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_VERSION = "9"
+
+[site]
+  bucket = "dist"
+
+[functions]
+directory = "functions"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+[env.production]
+NODE_ENV = "production" 

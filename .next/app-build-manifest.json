@@ -1,0 +1,11 @@
+{
+  "pages": {
+    "/api/send-email/route": [
+      "static/chunks/webpack-355b6985b14064de.js",
+      "static/chunks/4bd1b696-67ee12fb04071d3b.js",
+      "static/chunks/32-9b23da64a213cf35.js",
+      "static/chunks/main-app-9fc1d19b0ee5e2b5.js",
+      "static/chunks/app/api/send-email/route-a05bf6d551b7d42e.js"
+    ]
+  }
+}
